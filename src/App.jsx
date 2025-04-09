@@ -8,7 +8,8 @@ import Contact from "./pages/Contact";
 import MyProfile from "./pages/MyProfile";
 import MyAppointment from "./pages/MyAppointments";
 import Appointment from "./pages/Appointment";
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
+import "./index.css";
 
 const App = () => {
   return (
