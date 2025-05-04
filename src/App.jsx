@@ -10,6 +10,7 @@ import MyAppointment from "./pages/MyAppointments";
 import Appointment from "./pages/Appointment";
 import Navbar from "./components/Navbar";
 import "./index.css";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -26,6 +27,8 @@ const App = () => {
         <Route path="/my-appointments" element={<MyAppointment />} />
         <Route path="/appointment/:docId" element={<Appointment />} />
       </Routes>
+      {/* Footer will show in all the pages */}
+      <Footer />
     </div>
   );
 };
