@@ -55,22 +55,6 @@ The app operates in real time, with appointments reflected immediately once appr
 | **API Calls** | Axios           |
 
 ---
-
-## 🔄 How It Works – 3 Iterations Learned from the Video
-
-1. **First Pass – Overview & Architecture**
-   - Set up Node backend with API endpoints  
-   - Model structure: Users, Doctors, Appointments
-
-2. **Second Pass – Frontend Integration**
-   - Connect React UI
-   - Build forms for registration & booking requests
-
-3. **Third Pass – Real-time Management & Polishing**
-   - Add real-time confirmation
-   - Improve frontend UX and dashboard components
-
----
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
